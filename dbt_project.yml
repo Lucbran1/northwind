@@ -41,6 +41,6 @@ models:
 seeds:
   dbt_northwind:
     erp_northwind:
-      +enabled: true
+      +enabled: false
       +database: raw
       +schema: erp_northwind
